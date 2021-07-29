@@ -1,0 +1,108 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+.header-color{
+    color: orange;
+}
+.button{
+    border: 1px solid orange;
+    text-decoration: none;
+    width: 50px;
+    height: 30px;
+    padding: 9px;
+    background-image: linear-gradient(red, orangered);
+    color: wheat;
+    border-radius: 5px;
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;  
+    margin-right: 5px;  
+    
+}
+.half-width img{
+    width: 100%;
+
+}
+.about-me{
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     margin-right: 5px; 
+     background-image: url(images/shapes/7.png);
+     padding: 25px;
+
+}
+.second-width{
+    margin-left: 200px;
+
+}
+.second-width img{
+    width: 100%;
+    margin-right: 50px;
+}
+.font{
+    font-weight: 700;
+}
+.recipie{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 25%;
+}
+.card{
+    width: 25%;
+    
+}
+.container {
+    padding: 2px 16px;
+  }
+  .card-images{
+      display: flex;
+      margin-left: 10%;
+
+  }
+  .card{
+      margin-right: 5%;
+      box-shadow: 9px  15px  5px whitesmoke;
+      padding: 1%;
+      border-radius: 15px;
+
+  }
+  .subscriber{
+      display: flex;
+      margin-top: 15px;
+      width: 92%;
+      text-align: center;
+      justify-content: center;
+      box-shadow: 9px  15px  15px whitesmoke;
+      border-radius: 25px;
+    
+  }
+.subcriber-number{
+    margin-right: 10%;
+    padding: 3%;
+}
+.food-color{
+    color: lightsalmon;
+}
+.food-net{
+    color: lightslategrey;
+
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.footer-para{
+    color: white;
+}
