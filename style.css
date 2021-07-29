@@ -2,10 +2,38 @@
     margin: 0px;
     padding: 0px;
 } */
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 .header-color{
     color: orange;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
 .button{
     border: 1px solid orange;
     text-decoration: none;
@@ -16,6 +44,13 @@
     color: wheat;
     border-radius: 5px;
 
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .half-width{
     width: 40%;
@@ -36,7 +71,7 @@
      justify-content: center;
      margin-right: 5px; 
      background-image: url(images/shapes/7.png);
-     padding: 25px;
+     padding-top: 25px;
 
 }
 .second-width{
